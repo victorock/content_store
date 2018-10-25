@@ -5,7 +5,7 @@ target store.  The `config` function consumes existing `git_datastore`.
 The device's configuration to be stored in GIT repository and merged in upstream
 master branch, allowing the comparison (diff) of any content in the store.
 
-The `ansible_network_provider` is used to gather configuration content from devices.
+The `ansible-network.config_manager` is used to gather configuration content from devices.
 
 ## How to save and merge content in the content store
 
@@ -40,7 +40,7 @@ The example playbook above will :
 
 ## Function Parameters (Specs)
 
-For additional details about variables supported by this role and theirs respective default values [config_spec](https://github.com/ansible-network.config_store/blob/devel/meta/config_spec.yaml)
+For additional details about variables supported by this role and theirs respective default values [config_spec](https://github.com/ansible-network.content_store/blob/devel/meta/config_spec.yaml)
 
 ## Notes
 None
